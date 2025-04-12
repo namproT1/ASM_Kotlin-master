@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Italian Sideboard",
+      "price": 20.99,
+      "stars": 4,
+      "reviews": 2,
+      "description": "Italian Sideboard là tủ gỗ phong cách Ý, thiết kế tinh tế, dùng để trang trí và lưu trữ sang trọng.",
+      "image": "https://i.pinimg.com/736x/25/a4/a2/25a4a2ebce8ae922313818ecc9f42550.jpg",
+      "category_id": "2"
+    },
+    {
+      "id": "2",
+      "name": "Grey Dressing Table",
+      "price": 20.99,
+      "stars": 4,
+      "reviews": 2,
+      "description": "Grey Dressing Table là bàn trang điểm màu xám, thiết kế thanh lịch, tiện dụng cho không gian làm đẹp.",
+      "image": "https://i.pinimg.com/736x/9d/60/65/9d6065a56f59b582c74ee0da32320c96.jpg",
+      "category_id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Cloud sofa",
+      "price": 20.99,
+      "stars": 4,
+      "reviews": 2,
+      "description": "Cloud Sofa là sofa êm ái, thiết kế như mây, mang lại cảm giác thư giãn tối đa.",
+      "image": "https://i.pinimg.com/736x/a2/c4/c9/a2c4c9e1c609eb403b2ebe9bdc20b57f.jpg",
+      "category_id": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Chair"
+    },
+    {
+      "id": "2",
+      "name": "Table"
+    },
+    {
+      "id": "3",
+      "name": "Bed"
+    }
+  ],
+  "users": [
+    {
+      "addresses": [
+        {
+          "address": "20 Ho Tung Mau",
+          "city": "Hanoi",
+          "district": "Cau Giay",
+          "id": "1",
+          "isDefault": true,
+          "name": "Hoang Dep Trai",
+          "phone": "0987654321",
+          "ward": ""
+        },
+        {
+          "address": "20 Nguyen Chi Thanh",
+          "city": "Hanoi",
+          "district": "Ha Dong",
+          "id": "2",
+          "isDefault": false,
+          "name": "Hoang 15 CM",
+          "phone": "0912837216",
+          "ward": ""
+        }
+      ],
+      "cart": [
+        {
+          "productId": "3",
+          "quantity": 1
+        }
+      ],
+      "email": "admin@gmail.com",
+      "favourites": [],
+      "id": "1",
+      "name": "Hoang Dep Trai",
+      "notifications": [
+        {
+          "content": "Đơn hàng SPXVN4517709561 đã được đặt thành công. Tổng tiền: $25.99 (đã bao gồm phí ship)",
+          "date": "1744420211568",
+          "id": "SPXVN4517709561",
+          "isRead": false,
+          "title": "Đơn hàng mới"
+        },
+        {
+          "content": "Đơn hàng SPXVN6032680801 đã được đặt thành công. Tổng tiền: $25.99 (đã bao gồm phí ship)",
+          "date": "1744421435354",
+          "id": "SPXVN6032680801",
+          "isRead": false,
+          "title": "Đơn hàng mới"
+        }
+      ],
+      "orders": [
+        {
+          "addressUser": "90 Nguyen Chi Thanh",
+          "cartId": "cart_1744420211566",
+          "date": "10/04/2025",
+          "id": "b21b9ffa-0262-4ba4-be47-f3cff5b55f76",
+          "items": [
+            {
+              "nameProduct": "Italian Sideboard",
+              "quantity": "1"
+            }
+          ],
+          "nameUser": "Hoang Dep Trai",
+          "orderId": "SPXVN4517709561",
+          "paymentUser": "1234 5678 9012 3456",
+          "state": "CANCELED",
+          "totalMoney": 25.99,
+          "totalQuantity": 1,
+          "userId": "1"
+        },
+        {
+          "addressUser": "90 Nguyen Chi Thanh",
+          "cartId": "cart_1744421435347",
+          "date": "14/04/2025",
+          "id": "02b900ef-5a1c-468c-b33b-6a61c550731a",
+          "items": [
+            {
+              "nameProduct": "Italian Sideboard",
+              "quantity": "1"
+            }
+          ],
+          "nameUser": "Hoang Dep Trai",
+          "orderId": "SPXVN6032680801",
+          "paymentUser": "1234 5678 9012 3456",
+          "state": "DELIVERED",
+          "totalMoney": 25.99,
+          "totalQuantity": 1,
+          "userId": "1"
+        }
+      ],
+      "password": "123456",
+      "paymentMethods": [
+        {
+          "cardNumber": "1234 3456 5678 9012",
+          "cvv": "127",
+          "expiryDate": "12/25",
+          "id": "1",
+          "isDefault": true,
+          "name": "LE VAN HOANG"
+        },
+        {
+          "cardNumber": "1234 3456 5678 3456",
+          "cvv": "127",
+          "expiryDate": "09/26",
+          "id": "2",
+          "isDefault": false,
+          "name": "LE VAN HOANG"
+        }
+      ],
+      "phone": "0987654321",
+      "state": true
+    }
+  ]
+}
